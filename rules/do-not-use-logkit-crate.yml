@@ -4,5 +4,8 @@ severity: error
 language: rust
 files:
 - ./**
+severity: error
+language: rust
+files:
 rule:
   pattern: use logkit::$$$; 
