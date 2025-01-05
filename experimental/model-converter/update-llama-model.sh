@@ -6,6 +6,9 @@ ACCESS_TOKEN=$1
 usage() {
   echo "Usage: $0 <access_token>"
   exit 1
+    echo "Usage: $0 <access_token>"
+  exit 1
+
 }
 
 if [ -z "${ACCESS_TOKEN}" ]; then
