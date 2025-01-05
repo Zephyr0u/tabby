@@ -1,5 +1,7 @@
 name: tabby
 root: ./
+name: tabby
+root: ./
 
 windows:
   - caddy:
